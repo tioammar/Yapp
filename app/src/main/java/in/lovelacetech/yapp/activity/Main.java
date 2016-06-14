@@ -17,7 +17,7 @@ public class Main extends Base {
     }
 
     @Override
-    boolean setUseToolbar() {
+    protected boolean setUseToolbar() {
         return true;
     }
 

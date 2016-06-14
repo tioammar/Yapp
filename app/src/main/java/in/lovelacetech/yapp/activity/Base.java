@@ -12,7 +12,7 @@ import in.lovelacetech.yapp.R;
  */
 public abstract class Base extends AppCompatActivity {
 
-    abstract boolean setUseToolbar();
+    abstract protected boolean setUseToolbar();
     abstract protected String setTitle();
 
     @Override

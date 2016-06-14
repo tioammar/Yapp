@@ -3,13 +3,14 @@ package in.lovelacetech.yapp.db;
 import com.raizlabs.android.dbflow.annotation.Column;
 import com.raizlabs.android.dbflow.annotation.PrimaryKey;
 import com.raizlabs.android.dbflow.annotation.Table;
+import com.raizlabs.android.dbflow.structure.BaseModel;
 
 /**
  * Created by Tioammar
  */
 
 @Table(database = AppData.class, name = Services.TABLE_NAME)
-public class Services {
+public class Services extends BaseModel {
 
     public static final String TABLE_NAME = "services";
 
